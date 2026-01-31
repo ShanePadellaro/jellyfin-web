@@ -310,7 +310,6 @@
     "LabelAreYouStillWatchingCountHelp": "Number of consecutive auto-plays allowed before asking if you're still watching (default 5).",
     "ButtonKeepWatchingAskLater": "Keep watching and ask me again later",
     "ButtonDontAskAgain": "Don't ask me again",
-    "ButtonKeepWatching": "Keep watching",
     "EnableQuickConnect": "Enable Quick Connect on this server",
     "EnableSmoothScroll": "Enable smooth scroll",
     "EnableStreamLooping": "Auto-loop live streams",
