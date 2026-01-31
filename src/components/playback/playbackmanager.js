@@ -3548,7 +3548,7 @@ export class PlaybackManager {
                     if (user.Configuration.EnableNextEpisodeAutoPlay || nextMediaType !== MediaType.Video) {
                         const stillWatchingEnabled = userSettings.enableStillWatchingPrompt();
 
-                        if (stillWatchingEnabled && !self.isStillWatchingSuppressed() && self.getAutoPlayCount() >= stillWatchingThreshold() - 1) {
+                        if (stillWatchingEnabled && !self.isStillWatchingSuppressed() && self.getAutoPlayCount() >= stillWatchingThreshold()) {
                             Events.trigger(self, 'stillwatchingprompt', [ { newPlayer, player,
                                 state,
                                 nextItem,
